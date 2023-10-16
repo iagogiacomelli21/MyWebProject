@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 
+/* stules for the menu */
 .menu {
     float: left;
     width: 20%;
     text-align: center;
 }
 
+/* styles for each topic of the menu */
 .menu a {
     background-color: #63c5da;
     padding: 8px;
@@ -17,6 +19,7 @@
     color: white;
 }
 
+/* style change when hoover over menu */
 .menu a:hover {
     background-color: plum;
     padding: 8px;
@@ -26,6 +29,7 @@
     color: white;
 }
 
+/* style for the middle part of the webpage */
 .main {
     float:left;
     width: 60%;
@@ -43,6 +47,7 @@
     filter: drop-shadow(20px 20px 10px black);
 } */
 
+/* Style for the right hand side, news part of the webpage */
 .right {
     background-color: #63c5da;
     float: left;
@@ -52,15 +57,16 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 620px) {
+/* @media only screen and (max-width: 620px) {
 
     .menu,
     .main,
     .right {
         width: 100%;
     }
-}
+} */
 
+/* Footer style */
 #bottom {
     background-color: plum;
     text-align: center;
@@ -70,12 +76,15 @@
     color: white;
 }
 
+/* Top of the page title style */
 #head {
     background-color: plum;
     padding: 15px;
     text-align: center;
     filter:opacity(0.5)
 }
+
+/* Top of the page title style, when using hoover */
 #head:hover {
     background-color: plum;
     padding: 15px;
@@ -83,6 +92,7 @@
     filter:opacity(1)
 }
 
+/* Style for the entire body of the page */
 body {
     font-family: Courier New;
     color: white;
@@ -91,12 +101,12 @@ body {
     background-size:cover;
 }
 
-
-
+/* When hoover on each one of the Games */
 #top1:hover {
     filter:drop-shadow(10px 10px 5px black);
 }
 
+/* Dropdown box of games */
 #games{
     width: 20%;
     height: 10%;
@@ -106,6 +116,7 @@ body {
     text-align: center;
 }
 
+/* Vote button */
 #button{
     width: 20%;
     height: 10%;
@@ -115,6 +126,7 @@ body {
     border-radius: 25%;
 }
 
+/* Dropdown box of games */
 .vote{
     float:left;
     width: 100%;
@@ -123,6 +135,8 @@ body {
     text-align: center;
     height: 50%;
 }
+
+/* Result of the vote */
 #result{
     float:left;
     width: 100%;
@@ -131,6 +145,7 @@ body {
     text-align: center;
 }
 
+/* Style on page under construction */
 #pageTest{
     text-align: center;
     margin-top: 25%;

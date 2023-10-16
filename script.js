@@ -1,3 +1,4 @@
+// Function of the vote system
 function voteCounter() {
     if (typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
