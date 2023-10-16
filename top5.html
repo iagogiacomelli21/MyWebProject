@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top 5</title>
+    <!-- linking the index.html to our style.css -->
     <link rel="stylesheet" href="style.css">
+    <!-- Linking to the JS code -->
     <script src="script.js"></script>
 </head>
 
 <body>
+     <!-- Top of our page with the main slogan -->
     <div id="head">
         <h1>Game with Me</h1>
     </div>
     <div style="overflow:auto">
+        <!-- Creating a div to organize our mnenu -->
         <div class="menu">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact Us</a>
         </div>
+        <!-- div for the list of games in the top 5 -->
         <div class="main">
             <h2>Top 5 Games of all time</h2>
             <p>It's important to mention that this is a personal opinion, based on personal experience.</p>
+            <!-- Organized list created -->
             <ol>
+                <!-- List with the top 5 games with it's repective cover image -->
                 <li id="top1">
                     <img src="https://assets.vg247.com/current//2018/05/red_dead_redemption_2_cover_art_1.jpg" alt=""
                         style="width: 25%; height: 25%;">
@@ -46,13 +53,16 @@
         </div>
     </div>
     <div class="vote">
+        <!-- Dropdown box  with the game options to vote-->
         <select name="games" id="games">
             <option value="RDR2">Read Dead Redemption 2</option>
             <option value="GTA V">Grand Theft Auto 5</option>
         </select>
         <br></br>
+        <!-- Button to vote on the respective game -->
         <button id="button" type="button" onclick="voteCounter()">VOTE</button>
     </div>
+    <!-- Result of the votes so far -->
     <div id="result"></div>
     <br></br>
     <p>
@@ -60,6 +70,7 @@
     </p>
     <br></br>
     <br></br>
+    <!-- Footer of page with developer info -->
     <footer id="bottom">© copyright Iago Giacomelli</footer>
 </body>
 
