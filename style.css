@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu a {
+    background-color: #63c5da;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: plum;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.main {
+    float:left;
+    width: 60%;
+    padding: 0 20px;
+    color:white;
+    text-align: center;
+}
+
+/* .main:hover {
+    float:left;
+    width: 60%;
+    padding: 0 20px;
+    color:white;
+    text-align: center;
+    filter: drop-shadow(20px 20px 10px black);
+} */
+
+.right {
+    background-color: #63c5da;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
+
+#bottom {
+    background-color: plum;
+    text-align: center;
+    padding: 15px;
+    margin-top: 7px;
+    margin-top: 30%;
+    color: white;
+}
+
+#head {
+    background-color: plum;
+    padding: 15px;
+    text-align: center;
+    filter:opacity(0.5)
+}
+#head:hover {
+    background-color: plum;
+    padding: 15px;
+    text-align: center;
+    filter:opacity(1)
+}
+
+body {
+    font-family: Courier New;
+    color: white;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+#top1:hover {
+    filter:drop-shadow(10px 10px 5px black);
+}
+
+#games{
+    width: 20%;
+    height: 10%;
+    background-color: #63c5da;
+    padding: 10px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#button{
+    width: 20%;
+    height: 10%;
+    background-color: #63c5da;
+    color: plum;
+    border-style:dashed;
+    border-radius: 25%;
+}
+
+.vote{
+    float:left;
+    width: 100%;
+    padding: 50px;
+    color:white;
+    text-align: center;
+    height: 50%;
+}
+#result{
+    float:left;
+    width: 100%;
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+
+#pageTest{
+    text-align: center;
+    margin-top: 25%;
+    font:large;
+}
