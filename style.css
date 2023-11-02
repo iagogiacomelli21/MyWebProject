@@ -3,12 +3,10 @@
 }
 
 /* stules for the menu */
-@media screen and (min-width: 2000px){
 .menu {
     float: left;
     width: 20%;
     text-align: center;
-}
 }
 
 /* styles for each topic of the menu */
@@ -32,14 +30,12 @@
 }
 
 /* style for the middle part of the webpage */
-@media screen and (max-width: 600px){
 .main {
     float:left;
     width: 60%;
     padding: 0 20px;
     color:white;
     text-align: center;
-}
 }
 
     .main1 {
@@ -48,11 +44,6 @@
         padding: 0 20px;
         color:white;
         text-align: center;
-    }
-    @media screen and (max-width: 800px) {
-        .left, .main1, .right {
-          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-        }
     }
 /* .main:hover {
     float:left;
