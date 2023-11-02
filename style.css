@@ -3,10 +3,12 @@
 }
 
 /* stules for the menu */
+@media screen and (min-width: 2000px){
 .menu {
     float: left;
     width: 20%;
     text-align: center;
+}
 }
 
 /* styles for each topic of the menu */
@@ -30,6 +32,7 @@
 }
 
 /* style for the middle part of the webpage */
+@media screen and (max-width: 600px){
 .main {
     float:left;
     width: 60%;
@@ -37,7 +40,20 @@
     color:white;
     text-align: center;
 }
+}
 
+    .main1 {
+        float:left;
+        width: 60%;
+        padding: 0 20px;
+        color:white;
+        text-align: center;
+    }
+    @media screen and (max-width: 800px) {
+        .left, .main1, .right {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
 /* .main:hover {
     float:left;
     width: 60%;
@@ -58,15 +74,6 @@
     text-align: center;
 }
 }
-
-/* @media only screen and (max-width: 620px) {
-
-    .menu,
-    .main,
-    .right {
-        width: 100%;
-    }
-} */
 
 /* Footer style */
 #bottom {
@@ -154,7 +161,7 @@ body {
     font:large;
 }
 
-/* That's for the plcement of the VOTE button */
+/* That's for the placement of the VOTE button */
 button{
     width: 15%;
     height: 5%;
@@ -173,7 +180,7 @@ button{
 
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
-    .menu, .main, .right {
+    .menu, .main, .right, .button, #count, #count1, #count2, #count3, #count4 {
       width: 100%;
     }
 }
