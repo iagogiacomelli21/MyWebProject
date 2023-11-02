@@ -151,3 +151,20 @@ body {
     margin-top: 25%;
     font:large;
 }
+
+/* That's for the plcement of the VOTE button */
+button{
+    width: 15%;
+    height: 5%;
+    float: right;
+    margin-top: 10%;
+    margin-right: -30%;
+}
+
+/* Also for the placement of the count of votes */
+#count, #count1, #count2, #count3, #count4 {
+    margin-right: -27%;
+    float: right;
+    margin-top: 5%;
+    text-align: center;
+}
