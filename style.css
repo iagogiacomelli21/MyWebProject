@@ -33,7 +33,7 @@
 .main {
     float:left;
     width: 60%;
-    padding: 0 20px;
+    /* padding: 0 10px; */
     color:white;
     text-align: center;
 }
@@ -45,17 +45,9 @@
         color:white;
         text-align: center;
     }
-/* .main:hover {
-    float:left;
-    width: 60%;
-    padding: 0 20px;
-    color:white;
-    text-align: center;
-    filter: drop-shadow(20px 20px 10px black);
-} */
 
 /* Style for the right hand side, news part of the webpage */
-@media screen and (min-width: 1000px){
+@media screen and (max-width: 1000px){
 .right {
     background-color: #63c5da;
     float: left;
@@ -126,16 +118,6 @@ body {
     border-radius: 25%;
 }
 
-/* Dropdown box of games */
-.vote{
-    float:left;
-    width: 100%;
-    padding: 50px;
-    color:white;
-    text-align: center;
-    height: 50%;
-}
-
 /* Result of the vote */
 #result{
     float:left;
@@ -153,25 +135,27 @@ body {
 }
 
 /* That's for the placement of the VOTE button */
+@media only screen and (max-width: 500px) {
 button{
     width: 15%;
     height: 5%;
-    float: right;
+    /* float: c; */
     margin-top: 10%;
-    margin-right: -30%;
+    /* margin-right: -20%; */
+}
 }
 
 /* Also for the placement of the count of votes */
 #count, #count1, #count2, #count3, #count4 {
-    margin-right: -27%;
-    float: right;
-    margin-top: 5%;
+    /* margin-right: -27%; */
+    /* float: right; */
+    margin-top: 3%;
     text-align: center;
 }
 
+/* This will adjust the responsiveness of the webpage on multiple devices */
 @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .menu, .main, .right, .button, #count, #count1, #count2, #count3, #count4 {
+    .menu, .main, .right, #count, #count1, #count2, #count3, #count4 {
       width: 100%;
     }
 }
