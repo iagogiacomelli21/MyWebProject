@@ -135,7 +135,7 @@ body {
 }
 
 /* That's for the placement of the VOTE button */
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) { */
 button{
     width: 15%;
     height: 5%;
@@ -143,7 +143,7 @@ button{
     margin-top: 10%;
     /* margin-right: -20%; */
 }
-}
+/* } */
 
 /* Also for the placement of the count of votes */
 #count, #count1, #count2, #count3, #count4 {
